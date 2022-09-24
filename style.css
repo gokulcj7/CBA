@@ -1,0 +1,40 @@
+.dropdown{
+	padding-top:5px;
+	padding-right:20px;
+}
+.navbar-nav{
+	display:flex;
+	justify-content:flex-end;
+}
+
+li ul{
+    display:none;
+}
+
+li:hover ul{
+    display:block;
+}
+
+.glyphicon-user{
+	padding-right:5px;
+}
+
+.title{
+	display:flex;
+	justify-content:center;
+	margin-left:190px;
+}
+
+.filter{
+	display:flex;
+	justify-content:center;
+}
+
+.dropdown-togglee{
+	color:black;
+}
+
+li {
+    list-style-type: none;
+}
+
