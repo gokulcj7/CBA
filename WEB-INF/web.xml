@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+
+	<servlet>
+		<servlet-name>Otp</servlet-name>
+		<servlet-class>Otp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Otp</servlet-name>
+		<url-pattern>/Otp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Selectall</servlet-name>
+		<servlet-class>Selectall</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Selectall</servlet-name>
+		<url-pattern>/Selectall</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Selectall2</servlet-name>
+		<servlet-class>Selectall2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Selectall2</servlet-name>
+		<url-pattern>/Selectall2</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Map</servlet-name>
+		<servlet-class>Map</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Map</servlet-name>
+		<url-pattern>/Map</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Insert</servlet-name>
+		<servlet-class>Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Insert</servlet-name>
+		<url-pattern>/Insert</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Val</servlet-name>
+		<servlet-class>Val</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Val</servlet-name>
+		<url-pattern>/Val</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Ajax</servlet-name>
+		<servlet-class>Ajax</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ajax</servlet-name>
+		<url-pattern>/Ajax</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Location</servlet-name>
+		<servlet-class>Location</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Location</servlet-name>
+		<url-pattern>/Location</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>SignUp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignUp</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>id</servlet-name>
+		<servlet-class>Demo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>id</servlet-name>
+		<url-pattern>/Ajax/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Id</servlet-name>
+		<servlet-class>Id</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Id</servlet-name>
+		<url-pattern>/Id</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Token</servlet-name>
+		<servlet-class>Token</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Token</servlet-name>
+		<url-pattern>/Token</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LinkData</servlet-name>
+		<servlet-class>LinkData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LinkData</servlet-name>
+		<url-pattern>/LinkData</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Report</servlet-name>
+		<jsp-file>/report.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Report</servlet-name>
+		<url-pattern>/report/*</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
